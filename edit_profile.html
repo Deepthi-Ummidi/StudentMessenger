@@ -1,0 +1,22 @@
+<html>
+<body><center>
+<font size=5>Select the data field to edit...</font>
+<br><br><br><br>
+<form action="edit_profile.php" method="POST">
+Field:
+<select name="field"> 
+	<option value="" selected>Select field</option>
+	<option value='password'>password</option>
+	<option value='fname'>firstname</option>
+	<option value='lname'>lastname</option>
+	<option value='address'>address</option>
+	<option value='state'>state</option>
+	<option value='country'>country</option>
+</select>
+<input type="text" name="field_value">
+<input type="submit" value="modify">
+</form>
+<a href="home.html">Back</a>
+</center>
+</body>
+</html>
